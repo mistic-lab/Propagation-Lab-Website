@@ -1,9 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
-title: UVic Propagation Lab
+layout: page
+feature-img: "images/header.jpg"
+subtitle: UVic Propagation Lab
 ---
 The University of Victoria Propagation Laboratory is a research and education facility in the Department of Electrical and Computer Engineering at the University of Victoria, in Victoria, British Columbia, Canada which has been around since the establishment of the ECE Department in the 1990s.
 

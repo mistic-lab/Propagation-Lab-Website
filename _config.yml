@@ -26,11 +26,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   them fine-tune their equipment and communication skills.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.propagationlab.ca" # the base hostname & protocol for your site, e.g. http://example.com
+header_text: "Welcome to the Propagation Lab"
+header_feature_image: images/header.jpg
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+theme: type-on-strap
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+avatar: images/logo.png         # Path of avatar image, to be displayed in the theme's header
+favicon: favicon.ico           # Icon displayed in the tab
+color_theme: auto                     # color theme auto, dark or light
+post_navigation: false
 
 # Defaults
 defaults:
