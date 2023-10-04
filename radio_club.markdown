@@ -18,9 +18,9 @@ Contact: [radioclub@propagtaionlab.ca](mailto:radioclub@propagtaionlab.ca)
 
 The Club welcomes QSL via the RAC bureau or the address below.
 
-University of Victoria Experimental Radio Group
-Dept. of Electrical & Computer Engineering
-University of Victoria
-P.O. Box 1700 STN CSC
-Victoria, B.C. V8W 2Y2
+University of Victoria Experimental Radio Group\
+Dept. of Electrical & Computer Engineering\
+University of Victoria\
+P.O. Box 1700 STN CSC\
+Victoria, B.C. V8W 2Y2\
 Canada
