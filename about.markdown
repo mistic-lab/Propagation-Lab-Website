@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 The University of Victoria Propagation Laboratory is a research and education facility in the Department of Electrical and Computer Engineering at the University of Victoria, in Victoria, British Columbia, Canada which has been around since the establishment of the ECE Department in the 1990s.
-1
+
 The mission of this facility is to advance the state of the art for telecommunications and our understanding of radio wave propagation by conducting cutting edge research, while also training the next generation of engineers and amateur radio operators via combination of the art of amateur radio with a formal, accredited undergraduate engineering curriculum. 
 
 The laboratory hosts an amateur radio club, the UVic Experimental Radio Group,which was established as an avenue to realize the mission outlined above. The lab offers amateur radio education and examinations via the amateur radio club as well as undergraduate courses, relying on our in-house examination capabilities. 
