@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   with signals to see how they bounce, bend, and travel, helping 
   them fine-tune their equipment and communication skills.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.propagationlab.ca" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://propagationlab.ca" # the base hostname & protocol for your site, e.g. http://example.com
 header_text: "Welcome to the Propagation Lab"
 header_feature_image: images/header.jpg
 
@@ -43,12 +43,6 @@ defaults:
       path: "images"
     values:
       image: true
-
-header_pages:
-  - radio_club.markdown
-  - projects.markdown
-  - research.markdown
-  - contact.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
