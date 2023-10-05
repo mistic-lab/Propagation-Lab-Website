@@ -13,7 +13,7 @@ permalink: /projects/
 
 ## Ionosphere Research
 
-![Photo of Antenna from the Long Wavelength Array radio telescope]({{site.url}}/images/LWA_Picture.jpg)
+![Photo of Antenna from the Long Wavelength Array radio telescope](/images/LWA_Picture.jpg)
 
 The Propagation Laboratory has an ongoing research program related to the ionosphere since 2019, using the Long Wavelength Array (LWA) radio telescope in the USA, with partners from the Department of Mechanical Engineering at the University of Victoria, and US institutions. 
 
