@@ -32,7 +32,7 @@ header_feature_image: images/header.jpg
 # Build settings
 theme: type-on-strap
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-avatar: /images/logo.png         # Path of avatar image, to be displayed in the theme's header
+avatar: /images/logo.PNG         # Path of avatar image, to be displayed in the theme's header
 favicon: favicon.ico           # Icon displayed in the tab
 color_theme: auto                     # color theme auto, dark or light
 post_navigation: false
