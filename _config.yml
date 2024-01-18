@@ -21,9 +21,7 @@
 title: UVic Propagation Lab
 email: management@propagationlab.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  A haven for radio geeks and amateur radio enthusiasts to tinker 
-  with signals to see how they bounce, bend, and travel, helping 
-  them fine-tune their equipment and communication skills.
+  Home
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://propagationlab.ca" # the base hostname & protocol for your site, e.g. http://example.com
 header_text: "Welcome to the Propagation Lab"
@@ -32,15 +30,15 @@ header_feature_image: images/header.jpg
 # Build settings
 theme: type-on-strap
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-avatar: /images/logo.PNG         # Path of avatar image, to be displayed in the theme's header
-favicon: favicon.ico           # Icon displayed in the tab
+avatar: assets/img/logo.PNG         # Path of avatar image, to be displayed in the theme's header
+favicon: assets/favicon.ico           # Icon displayed in the tab
 color_theme: auto                     # color theme auto, dark or light
 post_navigation: false
 
 # Defaults
 defaults:
   - scope:
-      path: "images"
+      path: "assets/img"
     values:
       image: true
 
