@@ -13,9 +13,10 @@ As the official amateur radio club of the University of Victoria, membership is 
 
 The Club meets every Thursday for a weekly contest \([NCCC FT4 Sprint](https://www.ncccsprint.com/ft4ns.html)\), which is intended to give operating experience to new members. Opportunities to get licensed, and training with the use of the club’s station for various operation modes are also offered at this time, while other special activities (contests, work parties for station building) are organized on a case by case basis via Slack and the event calendar below. 
 
-Meeting: 
-    - Time: Every Thursdays 5-7 PM, all year round.
-    - Location: UVic Engineering Lab Wing 402
+Meeting:
+
+- Time: Every Thursdays 5-7 PM, all year round.
+- Location: UVic Engineering Lab Wing 402
 
 {% include map.html %}
 
