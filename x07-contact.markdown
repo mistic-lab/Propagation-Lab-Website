@@ -15,5 +15,6 @@ permalink: /contact/
 
 ## E-Mail
 
+| University of Victoria Propagation Lab | University of Victoria Experimental Radio Group |
 | --- | --- |
 | [management@propagationlab.ca](mailto:management@propagationlab.ca) | [radioclub@propagationlab.ca](mailto:radioclub@propagationlab.ca) |

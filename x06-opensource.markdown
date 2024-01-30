@@ -6,7 +6,7 @@ permalink: /opensource/
 
 ## CubeSat Antenna
 
-The CubeSat Antenna is a half wavelength deplyable tape dipole that was originally designed to be the TT&C antenna on [ORCASat](https://orcasat.ca). The antenna is designed to interface with PC104 compliant baords using a reduced size header to simplify assembly. It was built and tuned in-house at the University of Victoria anechoic chamber, achieving a VSWR of 1.02:1 and an antenna efficiency of 95%. In-depth testing and characterization was conducted by the [Antenna Test Lab](https://antennatestlab.com/) and final verification was done at the Canadian Space Agency David Florida Laboratory [ATF2 facility](https://www.asc-csa.gc.ca/eng/laboratories-and-warehouse/david-florida/facilities/radio-frequency-qualification.asp).
+The CubeSat Antenna is a half wavelength deplyable tape dipole that was originally designed to be the TT&C antenna on [ORCASat](https://orcasat.ca). The antenna is designed to interface with PC104 compliant boards using a reduced size header to simplify assembly. It was built and tuned in-house at the University of Victoria anechoic chamber, achieving a VSWR of 1.02:1 and an antenna efficiency of 95%. In-depth testing and characterization was conducted by the [Antenna Test Lab](https://antennatestlab.com/) and final verification was done at the Canadian Space Agency David Florida Laboratory [ATF2 facility](https://www.asc-csa.gc.ca/eng/laboratories-and-warehouse/david-florida/facilities/radio-frequency-qualification.asp).
 
 ![ORCASat Antenna Picutre](/assets/img/ORCASat-ant.jpg)
 

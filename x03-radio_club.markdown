@@ -5,7 +5,7 @@ permalink: /radioclub/
 ---
 ## Overview
 
-The University of Victoria Experimental Radio Group, is a [RAC affiliated](https://www.rac.ca/affiliated-club-listing/) amateur radio club at the University of Victoria, sponsored by Prof. Peter Driessen VE7AB, the Principal Investigator of the UVic Propagation Laboratory. Established in 2023, using the call [VE7XUV](https://www.qrz.com/db/VE7XUV), the group focuses on facilitating amateur radio training, education by introducing students to this activity early in their professional careers, and using amateur radio to enhance the quality of their education and experience.
+The University of Victoria Experimental Radio Group, is a [RAC affiliated](https://www.rac.ca/affiliated-club-listing/) amateur radio club at the University of Victoria, sponsored by Prof. Peter Driessen VE7AB, the Principal Investigator of the UVic Propagation Laboratory. Using the call [VE7XUV](https://www.qrz.com/db/VE7XUV), the group focuses on facilitating amateur radio training, education by introducing students to this activity early in their professional careers, and using amateur radio to enhance the quality of their education and experience.
 
 As the official amateur radio club of the University of Victoria, membership is welcome by students, staff and faculty members, as well as experienced amateur radio operators in Victoria who have time and expertise to offer to aid with implementing the main mission of the club - student training. Personnel interested in joining the club are encouraged to visit during its weekly meeting, outlined below.
 
