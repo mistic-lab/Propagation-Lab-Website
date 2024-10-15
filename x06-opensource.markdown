@@ -22,4 +22,4 @@ Mechanical drawings can be found on our [GitLab repo](https://gitlab.orcasat.ca/
 
 The Modular CubeSat Radio is an open source SDR, based on the [Hermes Lite 2](http://www.hermeslite.com/), that is being developed for the Skya'anaSat project. It is a modular radio design which aims to provide access to all amateur-satellite allocations while being accessible to the average hobbyist. There are amateur-satellite frequency allocations up to 250 GHz but the highest frequency amateur satellite only goes up to ~10 GHz with the transponder on QO-100. The Modular CubeSat Radio project hopes to provide a design that can be easily expanded on using modules that handle frequency conversion. It will be developed with HF and VHF RF modules with higher frequency bands being left for future projects or community designs.
 
-Note: The GitLab repo for the Modular CubeSat Radio will be added here once development is completed.
+Note: The GitLab repo for the Modular CubeSat Radio is [here](https://gitlab.orcasat.ca/open-source-projects/mcr).
