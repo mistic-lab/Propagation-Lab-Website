@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects by the Propagation Laboratory
+title: Projects
 permalink: /projects/
 ---
 ## Modular CubeSat Radio
