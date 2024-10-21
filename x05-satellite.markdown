@@ -3,9 +3,55 @@ layout: page
 title: Satellite
 permalink: /satellite/
 ---
-## TT&C Information
 
-Small satellites built and operated by partnership comprised of the UVic Propagation Laboratory, the UVic Centre for Aerospace Research, and UVic Satellite Design all use the same telemetry format, based on the [Open LST](https://github.com/OpenLST/openlst) project . Information which is required for reception can be found below.
+## Overview
+
+The Propagation Laboratory is actively involved in Amateur satellite development, especially student training and open access software and harware work related to this area. Combining Amateur radio with satellite development is an excellent learning opportunity for engineering students at the University of Victoria. This page captures the information which is required for any Amateur to interact with orbiting satellites which the Propagation Laboratory contributed to. Should there by any missing information, Amateurs are encouraged to [contact us](https://www.propagationlab.ca/contact/) so we can properly amend this page. 
+
+## Satellite Specific Information
+
+### Skya’anaSat
+
+Skya’anatSat is currently under development. It is slated to launch in 2026 Q2 to SSO, carrying a VHF digipeater, a CW telemetry beacon, a DVB-S2 video beacon on 10 m, and an ionospheric sounding experiment with a citizen science aspect. It will also use UHF Amateur spectrum for TT&C. Amateurs are encouraged to be involved in this mission via participation in the above mentioned experiments. Information on these will be added to this page as it becomes available. 
+
+#### Amateur Payload
+
+The Amateur payload is available to be used by all interested and propely licensed parties, gobally. The schedule of experiments will be posted here at a later time. The Amateur payload is the debut of the [Modular CubeSat Radio](https://www.propagationlab.ca/opensource/), featuring the components necessary to faciliate the Amateur radio and ionoshperic science experiments. These are the core consisting of the SDR, computer and camera, as wel as HF and VHF RF front ends.
+
+- HF antenna: Base loaded 1/4 wave whip for 10m
+- VHF antenna: In house, half wave dipole
+- Radio: In house low power HF SDR based on the [Hermes Lite 2](http://www.hermeslite.com/)
+- HF RF front end: In house HF amplifier
+- VHF RF front end" In house VHF transverter
+- Emission: Designators TBD, LFM radar sweep, 15 WPM CW, Greencube style packet, DVB-S2 (QPSK, 0.35 roll off, 66kBaud, 1/2 rate FEC with normal block length and pilot symbols)
+- Service Area: Global
+
+#### TT&C
+
+Please note that the spacecraft only transmits TT&C when prompted by its control station in Victoria, BC, Canada. All uplink commands are encrypted, and Amateur radio operators do not have the ability to upload commands to the spacecraft, or prompt it to transmit UHF telemetry on demand. Using the information on this page, however, it is possible to observe, record and decode the downlink traffic between this satellite and the UVic control station.
+
+- Control station: VE7UVG
+- Phisically separate RF chain from Amateur payload, based on hertiage from ORCASat
+- Antenna: Half-wave in-house dipole
+- Radio: In-house half duplex UHF transceiver based on Planet's [Open LST](https://github.com/OpenLST/openlst)
+- Emission: Designator 25K0F1DBN, uncoded 2-FSK with PN9 whitening, 10.17 kbps rate, 6.18 kHz deviation
+- Service Area: When above 15 degrees elevation, as observed Victoria , BC
+
+
+### ORCASat
+
+ORCASat was a 2U CubeSat, with a mission of HQP traning. This section is maintained for legacy purposes. ORCASat has deorbited in July 2023. Please note that the spacecraft only transmits when prompted by its control station in Victoria, BC, Canada. All uplink commands are encrypted, and Amateur radio operators do not have the ability to upload commands to the spacecraft, or prompt it to transmit telemetry on demand. Using the information on this page, however, it is possible to observe, record and decode the downlink traffic between this satellite and the UVic control station.
+
+
+- Control station: VE7UVG
+- Antenna: Half-wave in-house dipole, port/starboard side
+- Radio: In-house half duplex UHF transceiver based on Planet's [Open LST](https://github.com/OpenLST/openlst)
+- Emission: Designator 25K0F1DBN, uncoded 2-FSK with PN9 whitening, 10.17 kbps rate, 6.18 kHz deviation
+- Service Area: When above 15 degrees elevation, as observed Victoria , BC
+
+## Detailed TT&C Information
+
+All the satellites on this page use the same telemetry format, based on the [Open LST](https://github.com/OpenLST/openlst) project. Protocol information which is required for decoding  can be found below.
 
 ## Telemetry Format
 
@@ -23,30 +69,3 @@ The resulting RF messaging communication protocol is shown below. Fields marked 
 | Length | Flag | Seq_Num | System | Command | Payload Message | Hardware ID | Software CRC |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 byte | 1 byte | 2 bytes* | 1 byte | 1 byte | N bytes | 2 bytes* | 2 bytes |
-
-## Satellite Specific Information
-
-### Skya’anaSat
-
-Skya’anatSat is currently under development. It is slated to launch in 2025 to SSO, carrying a Mode A transponder, a CW telemetry beacon, a DVB-S2 video beacon on 10 m, and an ionospheric sounding experiment. It will use UHF amateur spectrum for TT&C.
-
-#### TT&C
-
-- Antenna: Half-wave in-house dipole
-- Radio: In-house half duplex UHF transceiver based on Open LST
-- Service area: When above 15 degrees elevation, as observed Victoria , BC
-
-#### Amateur Payload
-
-- Antennas: In house, configuration TBD
-- Radio: In house SDR based on the [Hermes Lite 2](http://www.hermeslite.com/)
-- Service area: Global
-
-### ORCASat
-
-This section is maintained for legacy purposes.
-- Antenna: Half-wave in-house dipole
-- Radio: In-house half duplex UHF transceiver based on Open LST
-- Service area: When above 15 degrees elevation, as observed Victoria , BC
-
-Please note that the spacecraft only transmits when prompted by its control station in Victoria, BC, Canada. All uplink commands are encrypted, and amateur radio operators do not have the ability to upload commands to the spacecraft, or prompt it to transmit telemetry on demand.

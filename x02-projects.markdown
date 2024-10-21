@@ -26,3 +26,7 @@ The Propagation Laboratory has an ongoing [research program](https://leo.phys.un
 ## UHF Radio Repeater
 
 The Propagation Laboratory operates an UHF Amteur radio repeater on UVic campus. The repeater is intended to serve the Amateur community around the University of Victoria for emergency communciations and generic Amateur communication. More information on this repeater can be found on Chris VE7ALB frequency summary [site](https://ve7alb.ca/?page=frequencies).
+
+## LEO-NET
+
+[LEO-NET](https://onlineacademiccommunity.uvic.ca/starlink/) is an initiative by [Dr. Jianping Pan](https://www.uvic.ca/ecs/computerscience/people/faculty/profiles/pan-jianping.php) of the Department of Computer Science at the University of Victoria. It is a low-earth-orbit (LEO) satellite network (LSN) testbed, with access to SpaceX’s Starlink and Eutelsat’s OneWeb user terminals (UT, also known as “dish”). The Propagation Laboratory hosts some test equipment for this project to support Dr. Pan's research.

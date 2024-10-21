@@ -27,7 +27,7 @@ As the official Amateur radio club of the University of Victoria, membership is 
 
 ## Equipment
 
-The equipment operated by the Club consist of two state of the art operating positions, shown below. One is designed to facilitate HF contesting (K4 Station), while the other student training and OSCAR satellite work (Flex Station). 
+The equipment operated by the Club consist of two state of the art operating positions, shown below. One is designed to facilitate HF contesting (K4 Station), while the other student training via operation in the HF, VHF and UHF part of the radio spectrum, as well as OSCAR satellite work (Flex Station). The station is built to be versatelite and maximize the educational potential, while respecting the boundaries of what is feasible within the constrains of a university campus. 
 
 ![Club Equipment Picutre](/equipment.jpg)
 
