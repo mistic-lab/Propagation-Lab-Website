@@ -5,15 +5,18 @@ permalink: /radioclub/
 
 carousels:
   - images: 
-    - image: /assets/img/ORCASat-ant.jpg
-    - image: /assets/img/ORCASat-ant.jpg
-    - image: /assets/img/ORCASat-ant.jpg
-    - image: /assets/img/ORCASat-ant.jpg
-  - images: 
-    - image: /assets/img/ORCASat-ant.jpg
-    - image: /assets/img/ORCASat-ant.jpg
-    - image: /assets/img/ORCASat-ant.jpg
-    - image: /assets/img/ORCASat-ant.jpg
+    - image: /assets/img/radio-carousel (1).jpg
+    - image: /assets/img/radio-carousel (2).jpg
+    - image: /assets/img/radio-carousel (3).jpg
+    - image: /assets/img/radio-carousel (4).jpg
+    - image: /assets/img/radio-carousel (1).jpg
+    - image: /assets/img/radio-carousel (5).jpg
+    - image: /assets/img/radio-carousel (6).jpg
+    - image: /assets/img/radio-carousel (7).jpg
+    - image: /assets/img/radio-carousel (8).jpg
+    - image: /assets/img/radio-carousel (9).jpg
+    - image: /assets/img/radio-carousel (10).jpg
+    - image: /assets/img/radio-carousel (11).jpg
 
 ---
 ## Overview
