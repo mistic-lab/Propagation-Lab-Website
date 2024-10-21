@@ -29,7 +29,7 @@ As the official Amateur radio club of the University of Victoria, membership is 
 
 The equipment operated by the Club consist of two state of the art operating positions, shown below. One is designed to facilitate HF contesting (K4 Station), while the other student training and OSCAR satellite work (Flex Station). 
 
-![ORCASat Antenna Picutre](/assets/img/ORCASat-ant.jpg)
+![Club Equipment Picutre](/equipment.jpg)
 
 - K4 transciever / KPA500 linear amplifier / KAT500 ATU
 - Flex-6600M trasciever / 50W VHF and UHF XVTR from Q5
@@ -52,7 +52,7 @@ The Club and its members engage in a wide range of activities, which include ope
 
 The Club meets every Thursday for weekly activities, the \([NCCC FT4 Sprint](https://www.ncccsprint.com/ft4ns.html)\), the \([Canadian Aurora Net](https://auroranet.ham-radio.ca/)\), and the \([Weekly RTTY Test](https://radiosport.world/wrt.html)\) which are intended to give operating experience to new members. Opportunities to get licensed via examiners affiliated with the Club, and training with the use of the Club’s station for various operation modes are also offered at this time, while other special activities (e.g. contests, work parties for station building) are organized on a case by case basis by the members. 
 
-Meeting:
+Meeting Information:
 
 - Time: Every Thursdays 5-7 PM, all year round.
 - Location: UVic Capmus, Engineering Lab Wing 402
@@ -63,7 +63,7 @@ Contact: [radioclub@propagtaionlab.ca](mailto:radioclub@propagtaionlab.ca)
 
 ## Radio Club Event Calendar
 
-The club participates in a wide range of HF contesting activities. The calendar below contains the upcoming schedule, while past achivements are summarized on the \([Club's 3830 Page](https://3830scores.com/grouptracker.php?arg=Fuy9S8s4I1ppsI9I8JA%2FzCZM94zDyQ2jz98Mnk8XRUA%3D)\). Contesting activities are organized such that beginners as well as seasoned HF operators may find interesting and suitable activities for them.
+The club participates in a wide range of HF contesting activities. The calendar below contains the upcoming schedule, while past achivements are summarized on the Club's\([3830 Score Rumours Page](https://3830scores.com/grouptracker.php?arg=Fuy9S8s4I1ppsI9I8JA%2FzCZM94zDyQ2jz98Mnk8XRUA%3D)\). Contesting activities are organized such that beginners as well as seasoned HF operators may find interesting and suitable activities for them.
 
 {% include calendar.html %}
 

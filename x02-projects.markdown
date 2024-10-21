@@ -3,20 +3,26 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+## Modular CubeSat Rdio
+
+The [Modular CubeSat Radio (MCR)](https://www.propagationlab.ca/opensource/), a GNU Radio compatible, modular SDR designed for small satellite applications is designed and built by a Consortium led by the UVic Propagation Laboratory, with funding from [Amateur Radio Digital Communications](https://www.ardc.net/apply/grants/). The initiative consists of the creation of a state of the art, globally available, affordable, easy to manufacture CubeSat RF system with flight heritage and the possibility to be developed for use on any spectrum assigned to the Amateur satellite service by an average academic CubeSat developer or hobbyist. 
+
+## Skya'anaSat
+
+The Propagation Laboratory is partnering with UVic CfAR and UVSD to for the development of a 3U CubeSat named [Skya'anaSat](https://www.skyaanasat.ca/), with an Amateur radio and ionospheric science mission. The spacecraft will carry a number of Amateur radio experiments, as well as a radio beacon to allow the lab’s ionospheric research project to be extended to transionospheric sounding. The RF system which will serve as the payload of this mission will be the first flight of the Modular CubeSat Radio.
+
 ## ORCASat
 
 [ORCASat](https://www.orcasat.ca) was a 2U CubeSat developed by a partnership led by the University of Victoria Centre for Aerospace Research, with a mission to train highly qualified personnel for the space industry in Canada. The Propagation Laboratory was a partner in this project, jointly constructing a satellite ground station to serve as the telecommand facility for ORCASat, and an OSCAR ground station for the laboratory. 
 
 ## HamWAN
 
-[HamWAN](https://hamwan.org) is an american non-profit organization (501c3) developing best practices for high speed amateur radio data networks. HamWAN also runs the Puget Sound Data Ring, which is a real-world network implementation of the proposed designs. UVic is part of the Puget Sound Data Ring, with the on campus node providing coverage for the are around UVic, and adding to the network’s backhaul capabilities.
+[HamWAN](https://hamwan.org) is an american non-profit organization (501c3) developing best practices for high speed Amateur radio data networks. HamWAN also runs the Puget Sound Data Ring, which is a real-world network implementation of the proposed designs. UVic is part of the Puget Sound Data Ring, with the on campus node providing coverage for the are around UVic, and adding to the network’s backhaul capabilities.
 
 ## Ionosphere Research
 
-The Propagation Laboratory has an ongoing [research program](https://leo.phys.unm.edu/~lwa/obssched.html) related to the ionosphere since 2019, using the Long Wavelength Array (LWA) radio telescope in the USA, with partners from the Department of Mechanical Engineering at the University of Victoria, and US institutions. 
+The Propagation Laboratory has an ongoing [research program](https://leo.phys.unm.edu/~lwa/obssched.html) related to the ionosphere since 2019, using the Long Wavelength Array (LWA) radio telescope in the USA, with partners from the Department of Mechanical Engineering at the University of Victoria, and US institutions. s part of this, the radio telescope is used n two modes; one mode images waves in the ionosphere caused by Earth-disturbing events (big weather systems, earthquakes, lightning strikes, forest fires, etc.) and the other mode images atmospheric parameters in 3D.
 
-As part of this, the radio telescope is used in two modes; one mode images waves in the ionosphere caused by Earth-disturbing events (big weather systems, earthquakes, lightning strikes, forest fires, etc.) and the other mode images atmospheric parameters in 3D. Both modes create phase images using radio signals transmitted from the Earth’s surface upwards to ionization layers where they are reflected/refracted back to Earth’s surface and captured by the LWA.  A Fourier transform of the phase image separates all the Earth ionization layer’s waves of different amplitudes and frequencies (wavevectors), providing valuable information about the Earth-disturbing event that created the wave. Sweep waveforms are used to measure the impulse response. These LWA observations will provide new information about the power, energy and location of occurrence of Earth-disturbing events, as well as the three-dimensional measurement of the Earth atmosphere’s temperature, pressure and composition (water and aerosols) necessary to help understand and monitor climate change.
+## UHF Radio Repeater
 
-## Skya'anaSat
-
-The Propagation Laboratory is partnering with UVic CfAR and UVSD to for the development of a 3U CubeSat named Skyaana, with an amateur radio and ionospheric science mission. The spacecraft will carry a number of amateur radio experiments, as well as a radio beacon to allow the lab’s ionospheric research to be extended to transionospheric sounding.
+The Propagation Laboratory operates an UHF Amteur radio repeater on UVic campus. The repeater is intended to serve the Amateur community around the University of Victoria for emergency communciations and generic Amateur communication. More information on this repeater can be found on Chris VE7ALB frequency summary [site](https://ve7alb.ca/?page=frequencies).
