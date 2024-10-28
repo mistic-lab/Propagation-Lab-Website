@@ -5,11 +5,9 @@ permalink: /radioclub/
 
 carousels:
   - images: 
-    - image: /assets/img/radio-carousel (1).jpg
     - image: /assets/img/radio-carousel (2).jpg
     - image: /assets/img/radio-carousel (3).jpg
     - image: /assets/img/radio-carousel (4).jpg
-    - image: /assets/img/radio-carousel (1).jpg
     - image: /assets/img/radio-carousel (5).jpg
     - image: /assets/img/radio-carousel (6).jpg
     - image: /assets/img/radio-carousel (7).jpg
@@ -17,6 +15,7 @@ carousels:
     - image: /assets/img/radio-carousel (9).jpg
     - image: /assets/img/radio-carousel (10).jpg
     - image: /assets/img/radio-carousel (11).jpg
+    - image: /assets/img/radio-carousel (12).jpg
 
 ---
 ## Overview
