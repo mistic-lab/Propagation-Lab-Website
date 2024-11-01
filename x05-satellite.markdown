@@ -10,7 +10,7 @@ The Propagation Laboratory is actively involved in Amateur satellite development
 
 ## Satellite Specific Information
 
-### Skya’anaSat
+<!-- ### Skya’anaSat
 
 Skya’anatSat is currently under development. It is slated to launch in 2026 Q2 to SSO, carrying a VHF digipeater, a CW telemetry beacon, a DVB-S2 video beacon on 10 m, and an ionospheric sounding experiment with a citizen science aspect. It will also use UHF Amateur spectrum for TT&C. Amateurs are encouraged to be involved in this mission via participation in the above mentioned experiments. Information on these will be added to this page as it becomes available. 
 
@@ -36,7 +36,7 @@ Please note that the spacecraft only transmits TT&C when prompted by its control
 - Radio: In-house half duplex UHF transceiver based on Planet's [Open LST](https://github.com/OpenLST/openlst)
 - Emission: Designator 25K0F1DBN, uncoded 2-FSK with PN9 whitening, 10.17 kbps rate, 6.18 kHz deviation
 - Service Area: When above 15 degrees elevation, as observed Victoria , BC
-
+ -->
 
 ### ORCASat
 
