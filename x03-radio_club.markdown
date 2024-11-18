@@ -5,6 +5,7 @@ permalink: /radioclub/
 
 carousels:
   - images: 
+    - image: /assets/img/radio-carousel (1).jpg
     - image: /assets/img/radio-carousel (2).jpg
     - image: /assets/img/radio-carousel (3).jpg
     - image: /assets/img/radio-carousel (4).jpg
