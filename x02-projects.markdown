@@ -7,9 +7,9 @@ permalink: /projects/
 
 The [Modular CubeSat Radio (MCR)](https://www.propagationlab.ca/opensource/), a GNU Radio compatible, modular SDR designed for small satellite applications is designed and built by a Consortium led by the UVic Propagation Laboratory, with funding from [Amateur Radio Digital Communications](https://www.ardc.net/apply/grants/). The initiative consists of the creation of a state of the art, globally available, affordable, easy to manufacture CubeSat RF system with flight heritage and the possibility to be developed for use on any spectrum assigned to the Amateur satellite service by an average academic CubeSat developer or hobbyist. 
 
-## The Skya'anaSat CubeSat
+## New 3U CubeSat CubeSat
 
-The Propagation Laboratory is partnering with UVic CfAR and UVSD to for the development of a 3U CubeSat named [Skya'anaSat](https://www.skyaanasat.ca/), with an Amateur radio and ionospheric science mission. The spacecraft will carry a number of Amateur radio experiments, as well as a radio beacon to allow the lab’s ionospheric research project to be extended to transionospheric sounding. The RF system which will serve as the payload of this mission will be the first flight of the Modular CubeSat Radio.
+The Propagation Laboratory is partnering with UVic CfAR and UVSD to for the development of a new 3U CubeSat, with an Amateur radio and ionospheric science mission. The spacecraft will carry a number of Amateur radio experiments, as well as a radio beacon to allow the lab’s ionospheric research project to be extended to transionospheric sounding. The RF system which will serve as the payload of this mission will be the first flight of the Modular CubeSat Radio.
 
 ## The ORCASat CubeSat
 
