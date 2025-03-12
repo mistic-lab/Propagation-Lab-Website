@@ -55,11 +55,11 @@ The Club meets every Thursday for weekly activities, the \([NCCC FT4 Sprint](htt
 Meeting Information:
 
 - Time: Every Thursdays 5-7 PM, all year round.
-- Location: UVic Capmus, Engineering Lab Wing 402
+- Location: UVic Campus, Engineering Lab Wing 402
 
 {% include map.html %}
 
-Contact: [radioclub@propagtaionlab.ca](mailto:radioclub@propagtaionlab.ca)
+Contact: [radioclub@propagationlab.ca](mailto:radioclub@propagationlab.ca)
 
 ## Radio Club Event Calendar
 
