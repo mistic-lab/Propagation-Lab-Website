@@ -10,9 +10,9 @@ The Propagation Laboratory is actively involved in Amateur satellite development
 
 ## Satellite Specific Information
 
-### New 3U CubeSat
+### MARMOTSat
 
-A new 3U CubeSat is currently under development. It is slated to launch in 2026 Q2 to SSO, carrying a VHF digipeater, a CW telemetry beacon, a DVB-S2 video beacon on 10 m, and an ionospheric sounding experiment with a citizen science aspect. It will also use UHF Amateur spectrum for TT&C. Amateurs are encouraged to be involved in this mission via participation in the above mentioned experiments. Information on these will be added to this page as it becomes available. 
+[MARMOTSat](https://www.marmotsat.ca) is a new 3U CubeSat currently under development. It is slated to launch in 2026 Q2 to SSO, carrying a VHF digipeater, a CW telemetry beacon, a DVB-S2 video beacon on 10 m, and an ionospheric sounding experiment with a citizen science aspect. It will also use UHF Amateur spectrum for TT&C. Amateurs are encouraged to be involved in this mission via participation in the above mentioned experiments. Information on these will be added to this page as it becomes available. 
 
 #### Amateur Payload
 
