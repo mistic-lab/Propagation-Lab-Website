@@ -17,6 +17,9 @@ carousels:
     - image: /assets/img/radio-carousel (10).jpg
     - image: /assets/img/radio-carousel (11).jpg
     - image: /assets/img/radio-carousel (12).jpg
+    - image: /assets/img/radio-carousel (13).jpg
+    - image: /assets/img/radio-carousel (14).jpg
+    - image: /assets/img/radio-carousel (15).jpg
 
 ---
 ## Overview
@@ -29,7 +32,7 @@ As the official Amateur radio club of the University of Victoria, membership is 
 
 The equipment operated by the Club consist of two state of the art operating positions, shown below. One is designed to facilitate HF contesting (K4 Station), while the other student training via operation in the HF, VHF and UHF part of the radio spectrum, as well as OSCAR satellite work (Flex Station). The station is built to be versatelite and maximize the educational potential, while respecting the boundaries of what is feasible within the constrains of a university campus. 
 
-![Club Equipment Picutre](/assets/img/equipment.jpg)
+![Club Equipment Picture](/assets/img/equipment.jpg)
 
 - K4 transciever / KPA500 linear amplifier / KAT500 ATU
 - Flex-6600M trasciever / 50W VHF and UHF XVTR from Q5
