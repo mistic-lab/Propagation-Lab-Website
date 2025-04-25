@@ -40,7 +40,7 @@ The Amateur payload is available to be used by all interested and propely licens
 - VHF RF front end: HF to VHF transverter. Design [here](https://gitlab.orcasat.ca/open-source-projects/mcr/-/tree/main/hardware/vhf_xvtr).
 - Camera: Off the shelf serial camera module with resolution worse than <7.5m/pix.
 
-![Payload board](assets/img/marmot-payload-carousel%20(1).JPG)
+![Payload board](/assets/img/marmot-payload-carousel(1).JPG)
 
 #### Amateur Experiment Schedule
 
@@ -140,7 +140,11 @@ A packet radio scheme is used, with transmission format derived from what is use
 - The PKTLEN register is used to set the maximum packet length allowed in RX.
 - The hardware CRC is also not used, instead it is implemented in software in the payload.
 
-When a packet is received, the hardware packet handler will strip the packet down to the Payload Data only. This payload data is the packet with Length, flag and footer fields. This packet is again operated on and made into the original | Hardware ID | Seq_Num | System | Command | Payload Message | packet, that the radio command handler will recognize and so will the CDH team.
+When a packet is received, the hardware packet handler will strip the packet down to the Payload Data only. This payload data is the packet with Length, flag and footer fields. This packet is again operated on and made into the original
+
+| Hardware ID | Seq_Num | System | Command | Payload Message | 
+
+packet, that the radio command handler will recognize and so will the CDH team.
 
 The resulting RF messaging communication protocol is shown below. Fields marked with “*” are sent LSB first.
 
