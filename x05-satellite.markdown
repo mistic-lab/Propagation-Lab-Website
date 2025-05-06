@@ -10,7 +10,6 @@ carousels:
     - image: /assets/img/payload-sdr.jpg
     - image: /assets/img/payload-hf-amplifier.jpg
     - image: /assets/img/payload-vhf-transverter-2.jpg
-    - image: /assets/img/marmot-uhf-antenna.jpg
     - image: /assets/img/marmot-vhf-antenna.jpg
   - images: 
     - image: /assets/img/station-carousel (1).jpg
