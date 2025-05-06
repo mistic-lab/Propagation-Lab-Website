@@ -4,6 +4,14 @@ title: Satellite
 permalink: /satellite/
 
 carousels:
+  - images:
+    - image: /assets/img/payload-xvtr.JPG
+    - image: /assets/img/payload-computer.jpg
+    - image: /assets/img/payload-sdr.jpg
+    - image: /assets/img/payload-hf-amplifier.jpg
+    - image: /assets/img/payload-vhf-transverter-2.jpg
+    - image: /assets/img/marmot-uhf-antenna.jpg
+    - image: /assets/img/marmot-vhf-antenna.jpg
   - images: 
     - image: /assets/img/station-carousel (1).jpg
     - image: /assets/img/station-carousel (2).jpg
@@ -40,11 +48,11 @@ The Amateur payload is available to be used by all interested and propely licens
 - VHF RF front end: HF to VHF transverter. Design [here](https://gitlab.orcasat.ca/open-source-projects/mcr/-/tree/main/hardware/vhf_xvtr).
 - Camera: Off the shelf serial camera module with resolution worse than <7.5m/pix.
 
-![Payload board](/assets/img/marmot-payload-carousel(1).JPG)
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
 #### Amateur Experiment Schedule
 
-The schedule of experiments will be posted here later, once teh spacecraft commissioning is complete. Please check back in Q3 2026.
+The schedule of experiments will be posted here later, once the spacecraft commissioning is complete. Please check back in Q3 2026.
 
 #### Morse Code Beacon Experiment
 
@@ -158,7 +166,7 @@ The UVic Ground Station is a state-of-the-art multi-mode multi-band Amateur sate
 
 The station is built around a Flex-6600M transceiver for all operation modes except doing CubeSat telecommand, for which an USRP B210 as well as a custom modem based specific to the radio used by UVic’s satellites is available. These is complemented with a collection of high-performance antennas, and supported with commercial grade infrastructure, such as generator backup and redundant methods of Internet access.
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+{% include carousel.html height="50" unit="%" duration="7" number="2" %}
 
 The detailed design of the station’s satellite component is shown below, via a diagram which is focused on the RF elements for clarity. The core design principles are the use of modern technologies (SDR, remote operation etc.), antenna sharing between the CubeSat telecommand and Amateur satellite (OSCAR) operating modes, as well as HF antenna and rotator sharing with the other HF station in the Propagation Lab, built around a Elecraft K4 and KPA500, for CW contesting.
 
