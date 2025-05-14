@@ -8,9 +8,7 @@ carousels:
     - image: /assets/img/payload-xvtr.JPG
     - image: /assets/img/payload-computer.jpg
     - image: /assets/img/payload-sdr.jpg
-    - image: /assets/img/payload-hf-amplifier.jpg
-    - image: /assets/img/payload-vhf-transverter-2.jpg
-    - image: /assets/img/marmot-vhf-antenna.jpg
+    - image: /assets/img/payload-core-stack.jpg
   - images: 
     - image: /assets/img/station-carousel (1).jpg
     - image: /assets/img/station-carousel (2).jpg
@@ -21,7 +19,7 @@ carousels:
 
 ## Overview
 
-The Propagation Laboratory is actively involved in Amateur satellite development, especially student training and open access software and harware work related to this area. Combining Amateur radio with satellite development is an excellent learning opportunity for engineering students at the University of Victoria. This page captures the information which is required for any Amateur to interact with orbiting satellites which the Propagation Laboratory contributed to. Should there by any missing information, Amateurs are encouraged to [contact us](https://www.propagationlab.ca/contact/) so we can properly amend this page. 
+The Propagation Laboratory is actively involved in Amateur satellite development, especially student training and open access software and hardware work related to this area. Combining Amateur radio with satellite development is an excellent learning opportunity for engineering students at the University of Victoria. This page captures the information which is required for any Amateur to interact with orbiting satellites which the Propagation Laboratory contributed to. Should there by any missing information, Amateurs are encouraged to [contact us](https://www.propagationlab.ca/contact/) so we can properly amend this page. 
 
 ## Satellite Specific Information
 
@@ -66,7 +64,7 @@ The Morse Code telemetry beacon, available on HF and VHF provides easy to access
 
 ##### VHF Equipment Requirements for Amateurs
 
-- Directional VHF antenna, such as a VHF arrow, or better.
+- Directional VHF antenna, such as a VHF Arrow, or better.
 - VHF radio with CW mode, or low cost VHF SDR (e.g. RTL, AirSpy etc.) and Windows/Linux computer with suitable open-source support software, such as [Quisk](http://www.james.ahlstrom.name/quisk/) or [gqrx](https://www.gqrx.dk/). [CW Skimmer](https://www.dxatlas.com/CwSkimmer/) if aural reception is undesired.
 
 ##### Telemetry Scheme
@@ -147,11 +145,7 @@ A packet radio scheme is used, with transmission format derived from what is use
 - The PKTLEN register is used to set the maximum packet length allowed in RX.
 - The hardware CRC is also not used, instead it is implemented in software in the payload.
 
-When a packet is received, the hardware packet handler will strip the packet down to the Payload Data only. This payload data is the packet with Length, flag and footer fields. This packet is again operated on and made into the original
-
-| Hardware ID | Seq_Num | System | Command | Payload Message | 
-
-packet, that the radio command handler will recognize and so will the CDH team.
+When a packet is received, the hardware packet handler will strip the packet down to the Payload Data only. This payload data is the packet with Length, flag and footer fields. This packet is again operated on and made into the original \| Hardware ID \| Seq_Num \| System \| Command \| Payload Message \| packet, that the radio command handler will recognize and so will the CDH team.
 
 The resulting RF messaging communication protocol is shown below. Fields marked with “*” are sent LSB first.
 
