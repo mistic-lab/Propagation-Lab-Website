@@ -72,7 +72,7 @@ The Morse Code telemetry beacon, available on HF and VHF provides easy to access
 To reduce transmission time of the telemetry data, hexadecimal digits were converted to characters with shorter Morse sending times and then mapped to ITU standard Morse characters. The encoding is shown in the table below.
 
 | Original Hex Value | Encoded Value | Time Units to Transmit |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | 0 | E | 1 |
 | 1 | I | 3 |
 | 2 | S | 5 |
@@ -89,6 +89,38 @@ To reduce transmission time of the telemetry data, hexadecimal digits were conve
 | D | K | 9 |
 | E | M | 7 |
 | F | G | 9 |
+
+The telemetry data which will be included in the CW Beacon is shown in the table below.
+
+| # | Telemetry Value | Subsystem | Description | Data Type | Size(Bytes) | Unit |
+| -- | :--: | :--: | :--: | :--: | :--: | :--: |
+|1|VMON_PACK_AVG|EPS|Pack voltage|uint16|2|mV|
+|2|VMON_ARR_AVG|EPS|Solar Array Voltage|unit16|2|mV|
+|3|TMON_PACK_AVG|EPS|Pack Temp|uint16|2|°C|
+|4|IMON_PACK_AVG|EPS|Pack Current|uint16|2|mA|
+|5|TMON_RAM_AVG|EPS|Ram Face Temp|uint16|2|°C|
+|6|TMON_PORT_AVG|EPS|Port Face Temp|uint16|2|°C|
+|7|TMON_NADIR_AVG|EPS|Nadir Face Temp|uint16|2|°C|
+|8|TMON_ZENITH_AVG|EPS|Zenith Face Temp|uint16|2|°C|
+|9|TMON_RAM_AVG|EPS|Ram Face Temp|uint16|2|°C|
+|10|TMON_PORT_AVG|EPS|Port Face Temp|uint16|2|°C|
+|11|TMON_PORT_WING_AVG|EPS|Port deployable panel temp|uint16|2|°C|
+|12|TMON_STRBD_AVG|EPS|Starboard face temp|uint16|2|°C|
+|13|TMON_STRBD_WING_AVG|EPS|Starboard deployable panel temp|uint16|2|°C|
+|14|TMON_WAKE_AVG|EPS|Wake Face Temp|uint16|2|°C|
+|15|EXCESS_CHARGE_TIME|EPS|Excess battery charge time|uint16|2|s|
+|16|CHARGED_CAP|EPS|mAh into the battery|uint16|2|mAh|
+|17|DISCHARGE_CAP|EPS|mAh out of the battery|uint16|2|mAh|
+|18|OBC temperature|OBC||int16_t|2|°C|
+|19|RAMOCCUR_1|OBC|# Bit errors in ram bank 1|uint16_t|2||
+|20|RAMOCCUR_2|OBC|# Bit errors in ram bank 2|uint16_t|2||
+|21|Uptime|TT&C|Time since last reboot|uint32_t|4|s|
+|22|ADC Channel 1|TT&C|Rail voltage, 4V2|uint16_t|2|Raw ADC count|
+|23|ADC Channel 2|TT&C|FEM temperature|uint16_t|2|Raw ADC count|
+|24|ADC Channel 3|TT&C|SoC temperature|uint16_t|2|Raw ADC count|
+|25|ADC Channel 4|TT&C|Rail voltage, 3V3|uint16_t|2|Raw ADC count|
+|26|Last RSSI|TT&C|Most recent RSSI|int8_t|1|dBM|
+|27|Current ADCS state|ADCS|||6||
 
 #### Digipeater Experiment
 
@@ -145,7 +177,7 @@ A packet radio scheme is used, with transmission format derived from what is use
 - The PKTLEN register is used to set the maximum packet length allowed in RX.
 - The hardware CRC is also not used, instead it is implemented in software in the payload.
 
-When a packet is received, the hardware packet handler will strip the packet down to the Payload Data only. This payload data is the packet with Length, flag and footer fields. This packet is again operated on and made into the original \| Hardware ID \| Seq_Num \| System \| Command \| Payload Message \| packet, that the radio command handler will recognize and so will the CDH team.
+When a packet is received, the hardware packet handler will strip the packet down to the Payload Data only. This payload data is the packet with Length, flag and footer fields. This packet is again operated on and made into the original **\| Hardware ID \| Seq_Num \| System \| Command \| Payload Message \|** packet, that the radio command handler will recognize and so will the CDH team.
 
 The resulting RF messaging communication protocol is shown below. Fields marked with “*” are sent LSB first.
 
