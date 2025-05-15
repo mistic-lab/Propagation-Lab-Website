@@ -138,6 +138,8 @@ The equipment requirements for Amateurs and the usage are the same as for Greenc
 
 The DVB-S2 experiment is a way for Amateurs to receive live video from the on-board camera of MARMOTSat, via a DVB-S2 signal, conforming to the [QO-100 operating guidelines](https://amsat-dl.org/en/p4-a-nb-transponder-bandplan-and-operating-guidelines/), transmitted from MARMOTSat on the 10m Amateur satellite allocation. The signal is QPSK, with a roll of factor of 0.35, at 66 or 33 kbaud symbol rate, and a ½ FEC rate. ACM is not used. The experiment was motivated by successful transatlantic DATV transmissions, by [Rob M0DTS](https://ei7gl.blogspot.com/2022/11/successful-digital-amateur-tv-tests-on.html). Please note that this is a very noise sensitive experiment. Only those who meet the definition of Quiet Rural location as defined in [ITU Recommendation P.372-17 (08/2024) Radio Noise](https://www.itu.int/rec/R-REC-P.372-17-202408-I/en) should attempt this experiment, and only for passes above 35 degree elevation.
 
+The video for this experiment is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
 ##### Equipment Requirements for Amateurs
 - Any HF 10m antenna, designed for space communications. See [here](https://gitlab.orcasat.ca/open-source-projects/hf-turnstile-antenna) for a suitable design, a 10m turnstile, prepared as an open-source contribution from the MARMOTSat team.
 - Low-cost HF SDR (e.g. RTL, AirSpy etc.) and Windows/Linux computer with GNU radio. A GNU radio flowgraph for decoding the video be provided [here](https://gitlab.orcasat.ca/open-source-projects/dvb-s2-decoder) as an open source contribution, courtesy of the MARMOTSat project.
