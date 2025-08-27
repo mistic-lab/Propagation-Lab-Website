@@ -34,6 +34,21 @@ The Propagation Laboratory is actively involved in Amateur satellite development
 If you are interested in being one of select stations and experienced Amateurs who participate in the commissioning of the payload Amateur experiments, please [contact us](https://www.propagationlab.ca/contact/) with a brief description of your experience capabilities, and we may choose to offer you early access to the payload.
 MARMOTSat will also use UHF Amateur spectrum for TT&C, a subsystem separate from the Amateur payload for reasons of reliability. This subsystem is not available for Amateur use in the traditional sense, but the telemetry may be receivable by Amateurs in the Pacific Northwest.
 
+#### Radio Frequencies
+
+MARMOTSat will use the following frequencies for TT&C and Amateur experiments:
+
+| Amateur Experiment | Frequency |
+| :---: | :---: |
+| TT&C up- and downlink | 436.125 MHz |
+| Digipeater up- and downlink | 145.875 MHz |
+| CW telemetry beacon downlink | 145.875 MHz |
+| CW telemetry beacon downlink | 29.410 MHz |
+| DVB-S2 digital video beacon | 29.410 MHz |
+| Linear frequency modulation downlink | 29.410 MHz |
+
+Frequencies in each band are shared. The Amateur experiments which use the same frequencies are mutually exclusive and will never be run at the same time.
+
 #### Amateur Payload Overview
 
 The Amateur payload is available to be used by all interested and propely licensed parties, gobally. The Amateur payload is the debut of the [Modular CubeSat Radio](https://www.propagationlab.ca/opensource/), featuring the RF modules necessary to facilitate MARMOTSat’s Amateur radio and ionospheric science experiments. The MCR configuration for this mission is the core consisting of the SDR, computer and camera, as well as HF and VHF RF front ends, and wire antennas:
