@@ -29,11 +29,11 @@ The Propagation Laboratory is actively involved in Amateur satellite development
 
 [MARMOTSat](https://www.marmotsat.ca) is 3U CubeSat which was launched on July 7, 2026 on SpaceX Transpoter-17. It is formally designated as Canada's first OSCAR mission (CO-128), carrying a Greencub stlye  VHF digipeater, a VHF and a 10m HF CW beacon, a novel DVB-S2 video beacon on 10 m, as well as an ionospheric sounding experiment with a citizen science aspect, also utilizing the 10m band. Amateurs are encouraged to be involved in this mission via participation in the above-mentioned experiments. Information on these will be gradually added to this page as it becomes available during development.
 
-MARMOTSat also uses UHF Amateur spectrum for TT&C, a subsystem separate from the Amateur payload for reasons of reliability and regulatory compliance. This subsystem is not available for Amateur use in the traditional sense, but the telemetry may be receivable by Amateurs in the Pacific Northwest. The UHF system is only active when the satellite is visible from its dedicated ground station in Victoria.
+MARMOTSat also uses UHF Amateur spectrum for TT&C, utilzing a subsystem separate from the Amateur payload for reasons of reliability and regulatory compliance. This subsystem is not available for Amateur use in the traditional sense, but the telemetry may be receivable by Amateurs in the Pacific Northwest. The UHF system is only active when the satellite is visible from its dedicated ground station in Victoria.
 
 #### Radio Frequencies
 
-MARMOTSat will use the following frequencies for TT&C and Amateur experiments:
+MARMOTSat uses the following frequencies for TT&C and Amateur experiments:
 
 | Amateur Experiment | Frequency |
 | :---: | :---: |
@@ -60,13 +60,13 @@ The Amateur payload is available to be used by all interested and propely licens
 
 #### Amateur Experiment Schedule
 
-As of August 2026, the experiment schedule until further notice is the VHF Morse Code beacon, operated at 2W RF power with a text message (CQ DE VA7UVS CO-128 QRO 2 WATTS ANT DIPOLE WWWW.MARMOTSAT.CA) in place of telemetry as electrical power allows. Amateurs are encoruaged to check the [AMSAT Satellite Status Page](https://mvpaerospace.com/products/) for activity on the CO-128_\[TLM\] and make a report when the beacon is heard. The digipeater and HF experiments are not enabled. Once they are available for use, this section will be updated accordingly.
+As of August 2026, the experiment schedule until further notice is the VHF Morse Code beacon, operated at 2W RF power with a text message (CQ DE VA7UVS CO-128 QRO 2 WATTS ANT DIPOLE WWWW.MARMOTSAT.CA) in place of telemetry as electrical power allows. Amateurs are encoruaged to check the [AMSAT Satellite Status Page](https://mvpaerospace.com/products/) for activity on the CO-128_\[TLM\] line and make a report when the beacon is heard. The digipeater and HF experiments are not enabled. Once they are available for use, this section will be updated accordingly.
 
 #### Morse Code Beacon Experiment
 
 ##### Overview 
 
-The Morse Code beacons, available on HF and VHF provides easy to access information about the health of the electronic subsystems on board of the spacecraft. The beacon is designed to be received aurally, or via digital aids, such as CW Skimmer, and has a speed of 15 WPM. Transmissions are periodic, and the same message is repeated. Beacons can be configured to transmit text or telemetry.
+The Morse Code beacons, available on HF and VHF, provide easy to access information about the health of the electronic subsystems on board of the spacecraft, or simple messages for dissemination by humans. The beacon is designed to be received aurally, or via digital aids, such as CW Skimmer, and has a speed of 15 WPM. Transmissions are periodic, and the same message is repeated indefinitely. 
 
 ##### HF Equipment Requirements for Amateurs
 
@@ -80,7 +80,7 @@ The Morse Code beacons, available on HF and VHF provides easy to access informat
 
 ##### Telemetry Scheme
 
-If the beacon is configured to operate in telemetry mode, this section will be updated. If you are reading this, you can expect human readable text transmitted.
+If the beacon is configured to operate in telemetry mode, this section will be updated. If you are reading this, you can expect human readable text to be transmitted by MARMOTSAT.
 
 #### Digipeater Experiment
 
