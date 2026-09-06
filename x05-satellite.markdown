@@ -27,12 +27,9 @@ The Propagation Laboratory is actively involved in Amateur satellite development
 
 #### Mission Overview
 
-[MARMOTSat](https://www.marmotsat.ca), shown below, is a new 3U CubeSat currently under development, with an Amateur radio focus. It is slated to launch NET June 2026 on SpaceX Transporter-17 to SSO, carrying a VHF digipeater, a VHF and a 10m HF CW telemetry beacon, a novel DVB-S2 video beacon on 10 m, as well as an ionospheric sounding experiment with a citizen science aspect, also utilizing the 10m band. Amateurs are encouraged to be involved in this mission via participation in the above-mentioned experiments. Information on these will be gradually added to this page as it becomes available during development.
+[MARMOTSat](https://www.marmotsat.ca) is 3U CubeSat which was launched on July 7, 2026 on SpaceX Transpoter-17. It is formally designated as Canada's first OSCAR mission (CO-128), carrying a Greencub stlye  VHF digipeater, a VHF and a 10m HF CW beacon, a novel DVB-S2 video beacon on 10 m, as well as an ionospheric sounding experiment with a citizen science aspect, also utilizing the 10m band. Amateurs are encouraged to be involved in this mission via participation in the above-mentioned experiments. Information on these will be gradually added to this page as it becomes available during development.
 
-![Marmot Satellite Render](/assets/img/marmot-satellite-render.png)
-
-If you are interested in being one of select stations and experienced Amateurs who participate in the commissioning of the payload Amateur experiments, please [contact us](https://www.propagationlab.ca/contact/) with a brief description of your experience capabilities, and we may choose to offer you early access to the payload.
-MARMOTSat will also use UHF Amateur spectrum for TT&C, a subsystem separate from the Amateur payload for reasons of reliability. This subsystem is not available for Amateur use in the traditional sense, but the telemetry may be receivable by Amateurs in the Pacific Northwest.
+MARMOTSat also uses UHF Amateur spectrum for TT&C, a subsystem separate from the Amateur payload for reasons of reliability and regulatory compliance. This subsystem is not available for Amateur use in the traditional sense, but the telemetry may be receivable by Amateurs in the Pacific Northwest. The UHF system is only active when the satellite is visible from its dedicated ground station in Victoria.
 
 #### Radio Frequencies
 
@@ -47,95 +44,43 @@ MARMOTSat will use the following frequencies for TT&C and Amateur experiments:
 | DVB-S2 digital video beacon | 29.410 MHz |
 | Linear frequency modulation downlink | 29.410 MHz |
 
-Frequencies in each band are shared. The Amateur experiments which use the same frequencies are mutually exclusive and will never be run at the same time.
+Frequencies in each band are shared. The Amateur experiments are all mutually exclusive and will never be run at the same time. Similarly, TT&C will not be run at the same time as Amateur experiments.
 
 #### Amateur Payload Overview
 
-The Amateur payload is available to be used by all interested and propely licensed parties, gobally. The Amateur payload is the debut of the [Modular CubeSat Radio](https://www.propagationlab.ca/opensource/), featuring the RF modules necessary to facilitate MARMOTSat’s Amateur radio and ionospheric science experiments. The MCR configuration for this mission is the core consisting of the SDR, computer and camera, as well as HF and VHF RF front ends, and wire antennas:
+The Amateur payload is available to be used by all interested and propely licensed parties, gobally. The Amateur payload is the debut of the [Modular CubeSat Radio](https://gitlab.uvic-cfar.com/open-source-projects/mcr), featuring the RF modules necessary to facilitate MARMOTSat’s Amateur radio and ionospheric science experiments. The MCR configuration for this mission is the core consisting of the SDR, computer and camera, as well as HF and VHF RF front ends, and wire antennas:
 
-- HF antenna: Base loaded half-wave tape measure whip. 
+- HF antenna: Base loaded quater-wave tape measure whip. 
 - VHF antenna: Half wave tape measure dipole. 
-- Radio: Low power HF SDR based on the [Hermes Lite 2](http://www.hermeslite.com/). Design [here](https://gitlab.orcasat.ca/open-source-projects/mcr/-/tree/main/hardware/sdr).
-- HF RF front end: Two chain push/pull HF amplifier for 10m. Design [here](https://gitlab.orcasat.ca/open-source-projects/mcr/-/tree/main/hardware/hf_pa).
-- VHF RF front end: HF to VHF transverter. Design [here](https://gitlab.orcasat.ca/open-source-projects/mcr/-/tree/main/hardware/vhf_xvtr).
-- Camera: Off the shelf serial camera module with resolution worse than <7.5m/pix.
-
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+- Computer: Commercial off the shelf [AMD Kria K24](https://www.amd.com/en/products/system-on-modules/kria/k24.html) system on module (SoM) running custom Linux.
+- Radio: Low power, GNU Radio compatible HF SDR based on the [Hermes Lite 2](http://www.hermeslite.com/). Design [here](https://gitlab.uvic-cfar.com/open-source-projects/mcr/-/tree/main/hardware/mcr-core).
+- HF RF front end: Two stage QRP HF amplifier for 10m. Design [here](https://gitlab.uvic-cfar.com/open-source-projects/mcr/-/tree/main/hardware/mcr-hf-pa).
+- VHF RF front end: HF to VHF transverter. Design [here](https://gitlab.uvic-cfar.com/open-source-projects/mcr/-/tree/main/hardware/mcr-vhf-xvtr).
+- Camera: Off the shelf [KissCam V1](https://mvpaerospace.com/products/) serial camera module, from MVP Aerospace.
 
 #### Amateur Experiment Schedule
 
-The schedule of experiments will be posted here later, once the spacecraft commissioning is complete. Please check back in Q3 2026.
+As of August 2026, the experiment schedule until further notice is the VHF Morse Code beacon, operated at 2W RF power with a text message (CQ DE VA7UVS CO-128 QRO 2 WATTS ANT DIPOLE WWWW.MARMOTSAT.CA) in place of telemetry as electrical power allows. Amateurs are encoruaged to check the [AMSAT Satellite Status Page](https://mvpaerospace.com/products/) for activity on the CO-128_\[TLM\] and make a report when the beacon is heard. The digipeater and HF experiments are not enabled. Once they are available for use, this section will be updated accordingly.
 
 #### Morse Code Beacon Experiment
 
 ##### Overview 
 
-The Morse Code telemetry beacon, available on HF and VHF provides easy to access information about the health of the electronic subsystems on board of the spacecraft. The beacon is designed to be received aurally, or via digital aids, such as CW Skimmer, and has a speed of 15 WPM. Transmissions are on are periodic, and the spacecraft call sign VA7UVS is transmitted in plain text, while the telemetry is encoded as outlined at the end of this section, to reduce the transmission time. 
+The Morse Code beacons, available on HF and VHF provides easy to access information about the health of the electronic subsystems on board of the spacecraft. The beacon is designed to be received aurally, or via digital aids, such as CW Skimmer, and has a speed of 15 WPM. Transmissions are periodic, and the same message is repeated. Beacons can be configured to transmit text or telemetry.
 
 ##### HF Equipment Requirements for Amateurs
 
-- Any HF 10m antenna, designed for space communications. See [here](https://gitlab.orcasat.ca/open-source-projects/hf-turnstile-antenna) for a suitable design, a 10m turnstile, prepared as an open-source contribution from the MARMOTSat team.
+- Any HF 10 m antenna, designed for space communications. See [here](hhttps://gitlab.uvic-cfar.com/open-source-projects/hf-turnstile-antenna) for a suitable design, a 10m turnstile, prepared as an open-source contribution by the MARMOTSat team.
 - HF radio with CW mode, or low-cost HF SDR (e.g. RTL, AirSpy etc.) and Windows/Linux computer with suitable open-source support software, such as [Quisk](http://www.james.ahlstrom.name/quisk/) or [gqrx](https://www.gqrx.dk/). [CW Skimmer](https://www.dxatlas.com/CwSkimmer/) if aural reception is undesired.
 
 ##### VHF Equipment Requirements for Amateurs
 
-- Directional VHF antenna, such as a VHF Arrow, or better.
+- Directional VHF antenna, such as a VHF Arrow, or better (M2 LEO Pack, etc.).
 - VHF radio with CW mode, or low cost VHF SDR (e.g. RTL, AirSpy etc.) and Windows/Linux computer with suitable open-source support software, such as [Quisk](http://www.james.ahlstrom.name/quisk/) or [gqrx](https://www.gqrx.dk/). [CW Skimmer](https://www.dxatlas.com/CwSkimmer/) if aural reception is undesired.
 
 ##### Telemetry Scheme
 
-To reduce transmission time of the telemetry data, hexadecimal digits were converted to characters with shorter Morse sending times and then mapped to ITU standard Morse characters. The encoding is shown in the table below.
-
-| Original Hex Value | Encoded Value | Time Units to Transmit |
-| :---: | :---: | :---: |
-| 0 | E | 1 |
-| 1 | I | 3 |
-| 2 | S | 5 |
-| 3 | H | 7 |
-| 4 | V | 9 |
-| 5 | U | 7 |
-| 6 | F | 9 |
-| 7 | A | 5 |
-| 8 | R | 7 |
-| 9 | W | 9 |
-| A | T | 3 |
-| B | B | 5 |
-| C | D | 7 |
-| D | K | 9 |
-| E | M | 7 |
-| F | G | 9 |
-
-The telemetry data which will be included in the CW Beacon is shown in the table below.
-
-| # | Telemetry Value | Subsystem | Description | Data Type | Size(Bytes) | Unit |
-| -- | :--: | :--: | :--: | :--: | :--: | :--: |
-|1|VMON_PACK_AVG|EPS|Pack voltage|uint16|2|mV|
-|2|VMON_ARR_AVG|EPS|Solar Array Voltage|unit16|2|mV|
-|3|TMON_PACK_AVG|EPS|Pack Temp|uint16|2|°C|
-|4|IMON_PACK_AVG|EPS|Pack Current|uint16|2|mA|
-|5|TMON_RAM_AVG|EPS|Ram Face Temp|uint16|2|°C|
-|6|TMON_PORT_AVG|EPS|Port Face Temp|uint16|2|°C|
-|7|TMON_NADIR_AVG|EPS|Nadir Face Temp|uint16|2|°C|
-|8|TMON_ZENITH_AVG|EPS|Zenith Face Temp|uint16|2|°C|
-|9|TMON_RAM_AVG|EPS|Ram Face Temp|uint16|2|°C|
-|10|TMON_PORT_AVG|EPS|Port Face Temp|uint16|2|°C|
-|11|TMON_PORT_WING_AVG|EPS|Port deployable panel temp|uint16|2|°C|
-|12|TMON_STRBD_AVG|EPS|Starboard face temp|uint16|2|°C|
-|13|TMON_STRBD_WING_AVG|EPS|Starboard deployable panel temp|uint16|2|°C|
-|14|TMON_WAKE_AVG|EPS|Wake Face Temp|uint16|2|°C|
-|15|EXCESS_CHARGE_TIME|EPS|Excess battery charge time|uint16|2|s|
-|16|CHARGED_CAP|EPS|mAh into the battery|uint16|2|mAh|
-|17|DISCHARGE_CAP|EPS|mAh out of the battery|uint16|2|mAh|
-|18|OBC temperature|OBC||int16_t|2|°C|
-|19|RAMOCCUR_1|OBC|# Bit errors in ram bank 1|uint16_t|2||
-|20|RAMOCCUR_2|OBC|# Bit errors in ram bank 2|uint16_t|2||
-|21|Uptime|TT&C|Time since last reboot|uint32_t|4|s|
-|22|ADC Channel 1|TT&C|Rail voltage, 4V2|uint16_t|2|Raw ADC count|
-|23|ADC Channel 2|TT&C|FEM temperature|uint16_t|2|Raw ADC count|
-|24|ADC Channel 3|TT&C|SoC temperature|uint16_t|2|Raw ADC count|
-|25|ADC Channel 4|TT&C|Rail voltage, 3V3|uint16_t|2|Raw ADC count|
-|26|Last RSSI|TT&C|Most recent RSSI|int8_t|1|dBM|
-|27|Current ADCS state|ADCS|||6||
+If the beacon is configured to operate in telemetry mode, this section will be updated. If you are reading this, you can expect human readable text transmitted.
 
 #### Digipeater Experiment
 
@@ -145,7 +90,7 @@ The digipeater subsystem is a two-way communication experiment designed to serve
 
 ##### Digipeater Equipment Requirements & Usage
 
-The equipment requirements for Amateurs and the usage are the same as for Greencube. The MARMOTSat digipeater is designed to be compatible with all existing hardware and software what the Amateur community uses for digipeater operation. See [here](https://www.s5lab.space/index.php/digipeater-greencube/).
+The equipment requirements for Amateurs and the usage are the same as for Greencube. The MARMOTSat digipeater is designed to be compatible with all existing hardware and software what the Amateur community uses for Greencube style digipeater operation. Once the digipeater is enabled, more detailed instructions will be posted here.
 
 #### DVB-S2 Experiment
 
@@ -156,8 +101,8 @@ The DVB-S2 experiment is a way for Amateurs to receive live video from the on-bo
 The video for this experiment is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ##### Equipment Requirements for Amateurs
-- Any HF 10m antenna, designed for space communications. See [here](https://gitlab.orcasat.ca/open-source-projects/hf-turnstile-antenna) for a suitable design, a 10m turnstile, prepared as an open-source contribution from the MARMOTSat team.
-- Low-cost HF SDR (e.g. RTL, AirSpy etc.) and Windows/Linux computer with GNU radio. A GNU radio flowgraph for decoding the video be provided [here](https://gitlab.orcasat.ca/open-source-projects/dvb-s2-decoder) as an open source contribution, courtesy of the MARMOTSat project.
+- Any HF 10 m antenna, designed for space communications. See [here](hhttps://gitlab.uvic-cfar.com/open-source-projects/hf-turnstile-antenna) for a suitable design, a 10m turnstile, prepared as an open-source contribution by the MARMOTSat team.
+- Low-cost HF SDR (e.g. RTL, AirSpy etc.) and Windows/Linux computer with GNU radio. A GNU Radio flowgraph for decoding the video will be provided here by the time the experiment is enabled.
 
 #### Citizen Science Experiment
 
@@ -165,11 +110,11 @@ The video for this experiment is licensed under [CC BY-NC 4.0](https://creativec
 The citizen science experiment is a way for Amateurs to contribute to the Propagation Laboratory’s ongoing research project regarding the structure and composition of the ionosphere, and the potential correlation between that and natural and human caused terrestrial phenomena, such as earthquakes and climate change. As part of this, a linear frequency modulated waveform, similar to CODAR, is transmitted from MARMOTSat on the 10m Amateur satellite allocation, which Amateurs can pick up, record, and submit to a centralized repository, using only affordable, open source equipment.
 
 ##### Equipment Requirements for Amateurs
-- Any HF 10m antenna, designed for space communications. See [here](https://gitlab.orcasat.ca/open-source-projects/hf-turnstile-antenna) for a suitable design, a 10m turnstile, prepared as an open-source contribution from the MARMOTSat team.
+- Any HF 10 m antenna, designed for space communications. See [here](hhttps://gitlab.uvic-cfar.com/open-source-projects/hf-turnstile-antenna) for a suitable design, a 10m turnstile, prepared as an open-source contribution by the MARMOTSat team.
 - Low-cost HF SDR (e.g. RTL, AirSpy etc.) and Windows/Linux computer with GNU radio. 
 
 ##### Recording Format & Data Submission
-Instructions on the recording format and data submission will be posted here by the time MARMOTSat is launched.
+Instructions on the recording format and data submission will be posted here by the time the experiment is enabled.
 
 ### ORCASat
 
@@ -207,8 +152,6 @@ The resulting RF messaging communication protocol is shown below. Fields marked 
 The UVic Ground Station is a state-of-the-art multi-mode multi-band Amateur satellite station with HF, VHF and UHF satellite capabilities, as well as traditional terrestrial HF operating capabilities for all bands except 60 and 160m. The station has been carefully designed for a multi-use university environment, and it is designed to facilitate CubeSat telecommand operations on Amateur spectrum, as well as HQP training.
 
 The station is built around a Flex-6600M transceiver for all operation modes except doing CubeSat telecommand, for which an USRP B210 as well as a custom modem based specific to the radio used by UVic’s satellites is available. These is complemented with a collection of high-performance antennas, and supported with commercial grade infrastructure, such as generator backup and redundant methods of Internet access.
-
-{% include carousel.html height="50" unit="%" duration="7" number="2" %}
 
 The detailed design of the station’s satellite component is shown below, via a diagram which is focused on the RF elements for clarity. The core design principles are the use of modern technologies (SDR, remote operation etc.), antenna sharing between the CubeSat telecommand and Amateur satellite (OSCAR) operating modes, as well as HF antenna and rotator sharing with the other HF station in the Propagation Lab, built around a Elecraft K4 and KPA500, for CW contesting.
 
