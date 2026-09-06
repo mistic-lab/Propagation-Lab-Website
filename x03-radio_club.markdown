@@ -39,9 +39,9 @@ The equipment operated by the Club consist of two state of the art operating pos
 - Antenna Genius / Rotator Genius / AlfaSpid RAK rotor for HF antennas
 - M2 2MPC22 and 436CP43UG CP Yagi with RHCP/LHCP switch for OSCAR antennas
 - RAS rotor at 24V with MD-01 controller and custom truss system for OSCAR antennas
-- SP-200 / SP-70 LNAs  and high power circulators for OSCAR RF front end
-- Optibeam OB16-3, OB-5-6, Alpha Delta 40/80m trap dipole, Hustler 6BTV vertical, wide band discone
-- HamWAN node with dual redundant MW bachaul and 3x 120 degree sectors
+- SP-200 / SP-70 LNAs  and high power Sinclair circulators for OSCAR RF front end
+- Optibeam OB16-3, OB5-6, Alpha Delta 40/80m trap dipole, Hustler 6BTV vertical, custom 10m CP turnstile, wide band discone
+- HamWAN node with dual redundant MW bachaul and 3x 120 degree sectors for community use
 - USRP B210 and Q5 50W /75W VHF/UHF SSPAs for CubeSat ground station
 - Generator / UPS power for cirticial equipment
 

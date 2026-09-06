@@ -19,6 +19,10 @@ The Propagation Laboratory is partnering with UVic CfAR and UVSD for the develop
 
 [HamWAN](https://hamwan.org) is an american non-profit organization (501c3) developing best practices for high speed Amateur radio data networks. HamWAN also runs the Puget Sound Data Ring, which is a real-world network implementation of the proposed designs. UVic is part of the Puget Sound Data Ring, with the on campus node providing coverage for the are around UVic, and adding to the network’s backhaul capabilities.
 
+## SatNogs Node
+
+[SatNogs](https://satnogs.org/) is a complete platform of a open satellite ground-station network. The scope of the project is to create a full stack of open technologies based on open standards , and the construction of a full ground station as a showcase of the stack. The laboratory hosts [3166 - UVSD-SatNOGS](https://network.satnogs.org/stations/3166/) a node in the system operated by the [UVic Satellite Design Team](http://uvsd.ca).
+
 ## Ionosphere Research
 
 The Propagation Laboratory has an ongoing [research program](https://leo.phys.unm.edu/~lwa/obssched.html) related to the ionosphere since 2019, using the Long Wavelength Array (LWA) radio telescope in the USA, with partners from the Department of Mechanical Engineering at the University of Victoria, and US institutions. s part of this, the radio telescope is used n two modes; one mode images waves in the ionosphere caused by Earth-disturbing events (big weather systems, earthquakes, lightning strikes, forest fires, etc.) and the other mode images atmospheric parameters in 3D.
