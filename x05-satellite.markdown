@@ -2,19 +2,6 @@
 layout: page
 title: Satellite
 permalink: /satellite/
-
-carousels:
-  - images:
-    - image: /assets/img/payload-xvtr.JPG
-    - image: /assets/img/payload-computer.jpg
-    - image: /assets/img/payload-sdr.jpg
-    - image: /assets/img/payload-core-stack.jpg
-  - images: 
-    - image: /assets/img/station-carousel (1).jpg
-    - image: /assets/img/station-carousel (2).jpg
-    - image: /assets/img/station-carousel (3).jpg
-    - image: /assets/img/station-carousel (4).jpg
-
 ---
 
 ## Overview
