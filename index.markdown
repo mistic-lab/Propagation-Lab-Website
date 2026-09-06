@@ -6,11 +6,11 @@ title: Home
 hide_title: true
 position: 1
 ---
-The University of Victoria Propagation Laboratory is a research and education facility in the Department of Electrical and Computer Engineering at the University of Victoria, in Victoria, British Columbia, Canada which has been around since the establishment of the ECE Department in the 1990s.
+The University of Victoria Propagation Laboratory is a research and education facility in the Department of Electrical Engineering and Computer Science at the University of Victoria, in Victoria, British Columbia, Canada which has been around since the establishment of the ECE Department in the 1990s.
 
-The mission of this facility is to advance the state of the art for telecommunications and our understanding of radio wave propagation by conducting cutting edge research, while also training the next generation of engineers and Amateur radio operators via combination of the art of Amateur radio with a formal, accredited undergraduate engineering curriculum. 
+The mission of this facility is to advance the state of the art for telecommunications and humanity's understanding of radio wave propagation by conducting cutting edge research, while also training the next generation of engineers and Amateur radio operators via combination of the art of Amateur radio with a formal, accredited undergraduate engineering curriculum. 
 
-The laboratory hosts an Amateur radio club, the UVic Experimental Radio Group,which was established as an avenue to realize the mission outlined above. The lab offers Amateur radio education and examinations via the Amateur radio club as well as undergraduate courses, relying on our in-house examination capabilities. 
+The laboratory hosts an Amateur radio club, the UVic Experimental Radio Group, which was established as an avenue to realize the mission outlined above. As well, the laboratory offers Amateur radio education and examinations via the Amateur radio club as well as undergraduate courses, relying on our in-house examination capabilities. 
 
 The laboratory also facilitates undergraduate course projects, and graduate thesis which are related to telecommunication, digital signal processing, and Amateur radio, and partners with other organizations who have interests related to this, such as [Amateur Radio Digital Communications](https://www.ardc.net/), [HamWAN](https://hamwan.org), the [UVic Satellite Design Team](http://uvsd.ca), and the [UVic Centre for Aerospace Research](https://www.uvic-cfar.com/).
 
