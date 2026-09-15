@@ -47,7 +47,7 @@ The Amateur payload is available to be used by all interested and propely licens
 
 #### Amateur Experiment Schedule
 
-As of August 2026, the experiment schedule until further notice is the VHF Morse Code beacon, operated at 2W RF power with a text message (CQ DE VA7UVS CO-128 QRO 2 WATTS ANT DIPOLE WWWW.MARMOTSAT.CA) in place of telemetry as electrical power allows. Amateurs are encoruaged to check the [AMSAT Satellite Status Page](https://mvpaerospace.com/products/) for activity on the CO-128_\[TLM\] line and make a report when the beacon is heard. The digipeater and HF experiments are not enabled. Once they are available for use, this section will be updated accordingly.
+As of August 2026, the experiment schedule until further notice is the VHF Morse Code beacon, operated at 2W RF power with a text message (CQ DE VA7UVS CO-128 QRO 2 WATTS ANT DIPOLE WWWW.MARMOTSAT.CA) in place of telemetry as electrical power allows. This, in practice means that the experiment usually operates when the satellite is in the Sun. Amateurs are encoruaged to check the [AMSAT Satellite Status Page](https://mvpaerospace.com/products/) for activity on the CO-128_\[TLM\] line and make a report when the beacon is heard. The digipeater and HF experiments are not enabled. Once they are available for use, this section will be updated accordingly.
 
 #### Morse Code Beacon Experiment
 
